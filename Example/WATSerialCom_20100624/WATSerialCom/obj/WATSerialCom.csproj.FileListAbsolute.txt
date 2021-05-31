@@ -1,0 +1,8 @@
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\bin\Debug\WATSerialCom.exe
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\bin\Debug\WATSerialCom.pdb
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\ResolveAssemblyReference.cache
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\WATSerialCom.Properties.Resources.resources
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\WATSerialCom.csproj.GenerateResource.Cache
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\WATSerialCom.exe
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\WATSerialCom.pdb
+E:\data\Visual Studio 2005\Projects\WATSerialCom\WATSerialCom\obj\Debug\WATSerialCom.frmMain.resources
