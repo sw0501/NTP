@@ -13,7 +13,7 @@ namespace Time_Synch_Program
 {
     public partial class Main : Form
     {
-        //SerialPort m_sp1';
+        SerialPort m_sp1;
 
         public Main()
         {
@@ -30,6 +30,76 @@ namespace Time_Synch_Program
             PC_Hour.Text = System.DateTime.Now.ToString("HH");
             PC_Min.Text = System.DateTime.Now.ToString("mm");
             PC_Sec.Text = System.DateTime.Now.ToString("ss");
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            txtComNum.Text = "COM3";
+            txtBaudRate.Text = "115200";
+        }
+
+        private void btn_Open_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (null == m_sp1)
+                {
+                    m_sp1 = new SerialPort();
+                    m_sp1.PortName = txtComNum.Text;    //컴포트명
+                    m_sp1.BaudRate = Convert.ToInt32(txtBaudRate.Text); //바우드레이트
+
+                    m_sp1.Open();
+                }
+
+                btn_Open.Enabled = !m_sp1.IsOpen;   //Open Button Disable
+                btn_Close.Enabled = m_sp1.IsOpen;    //Close Button Enable
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btn_Close_Click(object sender, EventArgs e)
+        {
+            if(null != m_sp1)
+            {
+                if (m_sp1.IsOpen)
+                {
+                    m_sp1.Close();
+                    m_sp1.Dispose();
+                    m_sp1 = null;
+                }
+                btn_Open.Enabled = true;
+                btn_Close.Enabled = false;
+            }
+        }
+
+        private void btn_RX_Click(object sender, EventArgs e)
+        {
+            int iRecSize = m_sp1.BytesToRead;   //수신된 데이터 갯수
+            string strRxData;   //수신된 데이터를 문자열로 변환
+            //받아온 데이터를 시 분 초로 변환하여 저장하고 지연시간을 확인해서 그만큼 추가해주면 됨
+
+            try
+            {
+                if(iRecSize != 0)
+                {
+                    strRxData = "";
+                    byte[] buff = new byte[iRecSize];
+
+                    m_sp1.Read(buff, 0, iRecSize);
+                    for(int iTemp = 0; iTemp < iRecSize; iTemp++)
+                    {
+                        strRxData += Convert.ToChar(buff[iTemp]);
+                    }
+                    MessageBox.Show(strRxData);
+                }
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
