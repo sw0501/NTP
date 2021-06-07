@@ -1,0 +1,9 @@
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\bin\Debug\WATSerialCom.exe
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\bin\Debug\WATSerialCom.pdb
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.csprojAssemblyReference.cache
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.frmMain.resources
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.Properties.Resources.resources
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.csproj.GenerateResource.cache
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.csproj.CoreCompileInputs.cache
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.exe
+C:\Users\CKIRUser\Downloads\WATSerialCom_20100623\WATSerialCom\obj\Debug\WATSerialCom.pdb
