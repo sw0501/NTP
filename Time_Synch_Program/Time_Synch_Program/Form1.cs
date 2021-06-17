@@ -30,12 +30,16 @@ namespace Time_Synch_Program
             PC_Hour.Text = System.DateTime.Now.ToString("HH");
             PC_Min.Text = System.DateTime.Now.ToString("mm");
             PC_Sec.Text = System.DateTime.Now.ToString("ss");
+            PC_Time.Text = Properties.Settings.Default.Last_Server_Time;             //시간이 지날때마다 PC_Time을 갱신 -> RX 버튼을 누르거나 데이터를 받아왔을 때 갱신하면 됨
+            PC_Time_Delayed.Text = Properties.Settings.Default.Last_Server_Time_Delayed;
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
             txtComNum.Text = "COM3";
             txtBaudRate.Text = "115200";
+            PC_Time.Text = Properties.Settings.Default.Last_Server_Time;             //속성에 저장되어있는 Last_Server_Time을 불러와서 Text에 저장
+            PC_Time_Delayed.Text = Properties.Settings.Default.Last_Server_Time_Delayed;
         }
 
         private void btn_Open_Click(object sender, EventArgs e)
@@ -62,6 +66,11 @@ namespace Time_Synch_Program
 
         private void btn_Close_Click(object sender, EventArgs e)
         {
+            Properties.Settings.Default.Last_Server_Time = System.DateTime.Now.ToString();  //Close 버튼 누를때마다 바뀐 시간 설정을 저장
+            DateTime temp = System.DateTime.Now.AddSeconds(1);  //시간 지연
+            Properties.Settings.Default.Last_Server_Time_Delayed = temp.ToString(); //Close 버튼 누를때마다 바뀐 시간 설정을 저장
+            Properties.Settings.Default.Save(); //설정 저장
+
             if(null != m_sp1)
             {
                 if (m_sp1.IsOpen)
@@ -73,6 +82,7 @@ namespace Time_Synch_Program
                 btn_Open.Enabled = true;
                 btn_Close.Enabled = false;
             }
+
         }
 
         private void btn_RX_Click(object sender, EventArgs e)
@@ -100,6 +110,11 @@ namespace Time_Synch_Program
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btn_Time_Apply_Click(object sender, EventArgs e)
+        {
+            //System.DateTime.Now.Minute = 
         }
     }
 }

@@ -41,6 +41,12 @@ namespace Time_Synch_Program
             this.btn_Open = new System.Windows.Forms.Button();
             this.btn_Close = new System.Windows.Forms.Button();
             this.btn_RX = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.PC_Time = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.PC_Time_Delayed = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btn_Time_Apply = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PC_Hour
@@ -133,11 +139,72 @@ namespace Time_Synch_Program
             this.btn_RX.UseVisualStyleBackColor = true;
             this.btn_RX.Click += new System.EventHandler(this.btn_RX_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(-13, -185);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 15);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "label1";
+            // 
+            // PC_Time
+            // 
+            this.PC_Time.AutoSize = true;
+            this.PC_Time.Location = new System.Drawing.Point(228, 123);
+            this.PC_Time.Name = "PC_Time";
+            this.PC_Time.Size = new System.Drawing.Size(53, 15);
+            this.PC_Time.TabIndex = 11;
+            this.PC_Time.Text = "PC_Time";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(47, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(101, 15);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "PC_Time_Delayed";
+            // 
+            // PC_Time_Delayed
+            // 
+            this.PC_Time_Delayed.AutoSize = true;
+            this.PC_Time_Delayed.Location = new System.Drawing.Point(228, 88);
+            this.PC_Time_Delayed.Name = "PC_Time_Delayed";
+            this.PC_Time_Delayed.Size = new System.Drawing.Size(101, 15);
+            this.PC_Time_Delayed.TabIndex = 13;
+            this.PC_Time_Delayed.Text = "PC_Time_Delayed";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 123);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 15);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "PC_Time";
+            // 
+            // btn_Time_Apply
+            // 
+            this.btn_Time_Apply.Location = new System.Drawing.Point(386, 285);
+            this.btn_Time_Apply.Name = "btn_Time_Apply";
+            this.btn_Time_Apply.Size = new System.Drawing.Size(75, 23);
+            this.btn_Time_Apply.TabIndex = 15;
+            this.btn_Time_Apply.Text = "Time";
+            this.btn_Time_Apply.UseVisualStyleBackColor = true;
+            this.btn_Time_Apply.Click += new System.EventHandler(this.btn_Time_Apply_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 361);
+            this.Controls.Add(this.btn_Time_Apply);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.PC_Time_Delayed);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.PC_Time);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_RX);
             this.Controls.Add(this.btn_Close);
             this.Controls.Add(this.btn_Open);
@@ -169,6 +236,12 @@ namespace Time_Synch_Program
         private System.Windows.Forms.Button btn_Open;
         private System.Windows.Forms.Button btn_Close;
         private System.Windows.Forms.Button btn_RX;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label PC_Time;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label PC_Time_Delayed;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_Time_Apply;
     }
 }
 
