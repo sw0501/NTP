@@ -18,4 +18,4 @@ Serial 통신을 이용한 시간 동기화 프로그램
 - [X] 시간 동기화의 지연시간을 고려하여 시간 조정
 
 ## WFP 레이아웃
-![Layout](./Time_Sync_Program/img/NTP_Layout.png)
+![Layout](./img/NTP_Layout.png)
