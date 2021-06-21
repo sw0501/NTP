@@ -25,10 +25,10 @@ namespace Time_Synch_Program.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("00:00:00")]
-        public string Last_Server_Time {
+        [global::System.Configuration.DefaultSettingValueAttribute("2021-06-21")]
+        public global::System.DateTime Last_Server_Time {
             get {
-                return ((string)(this["Last_Server_Time"]));
+                return ((global::System.DateTime)(this["Last_Server_Time"]));
             }
             set {
                 this["Last_Server_Time"] = value;
@@ -37,10 +37,10 @@ namespace Time_Synch_Program.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("00:00:00")]
-        public string Last_Server_Time_Delayed {
+        [global::System.Configuration.DefaultSettingValueAttribute("2021-06-21")]
+        public global::System.DateTime Last_Server_Time_Delayed {
             get {
-                return ((string)(this["Last_Server_Time_Delayed"]));
+                return ((global::System.DateTime)(this["Last_Server_Time_Delayed"]));
             }
             set {
                 this["Last_Server_Time_Delayed"] = value;

@@ -2,11 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Time_Synch_Program.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Last_Server_Time" Type="System.String" Scope="User">
-      <Value Profile="(Default)">00:00:00</Value>
+    <Setting Name="Last_Server_Time" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-06-21</Value>
     </Setting>
-    <Setting Name="Last_Server_Time_Delayed" Type="System.String" Scope="User">
-      <Value Profile="(Default)">00:00:00</Value>
+    <Setting Name="Last_Server_Time_Delayed" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-06-21</Value>
     </Setting>
   </Settings>
 </SettingsFile>
