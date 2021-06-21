@@ -8,6 +8,9 @@ Serial 통신을 이용한 시간 동기화 프로그램
 * https://diy-dev-design.tistory.com/137 (설정을 저장하고 재실행 시 불러오는 법)
 * https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=xyz37&logNo=50192959391 (C# 윈폼 화면 갱신하는 법)
 * https://www.sysnet.pe.kr/2/0/11883 (C# 시스템 시간 변경하는 법)
+* https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jskimmail&logNo=220069215238 (C# 시스템 시간 변경하는 법 2)
+* https://yaraba.tistory.com/1393 (C# 시스템 시간 변경하는 법 3 | 최신)
+* https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tjdah9921&logNo=221208499243 (C# exe 파일 빌드)
 
 ## 필요한 기능
 - [ ] Serial 통신 기능 (수신)
