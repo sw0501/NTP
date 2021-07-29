@@ -14,12 +14,14 @@ https://github.com/sw0501/NTP
 * https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jskimmail&logNo=220069215238 (C# 시스템 시간 변경하는 법 2)
 * https://yaraba.tistory.com/1393 (C# 시스템 시간 변경하는 법 3 | 최신)
 * https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tjdah9921&logNo=221208499243 (C# exe 파일 빌드)
+* https://nicebury.tistory.com/90 (C#으로 Serial Port에서 GPS 데이터 읽기)
+* https://dklee.net/31 (C#으로 Serial Port에서 GPS 데이터 읽기 2)
 
 ## 필요한 기능
-- [ ] GPS 수신값 중 시간 데이터 추출
+- [△] GPS 수신값 중 시간 데이터 추출
 - [ ] 서버 PC의 시간 데이터 수신
-- [ ] 수신값이 들어왔는지 체크하는 기능
-- [ ] 포트/동기화/수신 상태 알람으로 표시
+- [X] 수신값이 들어왔는지 체크하는 기능
+- [X] 포트/동기화/수신 상태 알람으로 표시
 - [X] Serial 통신으로 데이터 값 읽기
 - [X] 수신한 데이터를 Voip PC 시간으로 설정
 - [X] 시간 동기화가 끊겼을 때 작동해야할 기존 PC 시간 저장 (영구)
