@@ -18,7 +18,7 @@ https://github.com/sw0501/NTP
 * https://dklee.net/31 (C#으로 Serial Port에서 GPS 데이터 읽기 2)
 
 ## 필요한 기능
-- [△] GPS 수신값 중 시간 데이터 추출
+- [ ] GPS 수신값 중 시간 데이터 추출
 - [ ] 서버 PC의 시간 데이터 수신
 - [X] 수신값이 들어왔는지 체크하는 기능
 - [X] 포트/동기화/수신 상태 알람으로 표시
@@ -31,5 +31,5 @@ https://github.com/sw0501/NTP
 
 ## WFP 레이아웃
 \\<!--![Layout](./img/NTP_Layout.png)-->
-[Layout](./img/[Time_Sync_Program]Main.jpg)
-[Layout](./img/[Time_Sync_Program]Setting.jpg)
+[Layout](./img/[Time_Sync_Program]_Main.jpg)
+[Layout](./img/[Time_Sync_Program]_Setting.jpg)
