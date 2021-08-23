@@ -31,5 +31,5 @@ https://github.com/sw0501/NTP
 
 ## WFP 레이아웃
 \\<!--![Layout](./img/NTP_Layout.png)-->
-[Layout](./img/Mail.html)
-[Layout](./img/Setting.html)
+[Layout](./img/[Time_Sync_Program]Main.jpg)
+[Layout](./img/[Time_Sync_Program]Setting.jpg)
