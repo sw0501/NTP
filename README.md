@@ -17,10 +17,14 @@ https://github.com/sw0501/NTP
 * https://nicebury.tistory.com/90 (C#으로 Serial Port에서 GPS 데이터 읽기)
 * https://dklee.net/31 (C#으로 Serial Port에서 GPS 데이터 읽기 2)
 * https://yaraba.tistory.com/1461 (가상 시리얼 포트 연결)
+* https://www.intel.co.kr/content/www/kr/ko/support/articles/000017881/intel-nuc.html (Putty 시리얼 통신 입력 설정)
+
+## 시리얼 통신시 주의사항
+NTP 프로그램을 실행한 후에 포트를 열고 PUTTY를 통해 연결된 상대포트에 접속을 해야 프로그램이 작동한다 이유는 모르겠음
 
 ## 필요한 기능
-- [ ] GPS 수신값 중 시간 데이터 추출
-- [ ] RJ32 to USB 형식의 시리얼 통신시 포트 연결
+- [X] GPS 수신값 중 시간 데이터 추출(날짜까지 제공하는 GPRMA에서 추출해야함)
+- [X] RJ32 to USB 형식의 시리얼 통신시 포트 연결
 - [ ] 서버 PC의 시간 데이터 수신
 - [X] 수신값이 들어왔는지 체크하는 기능
 - [X] 포트/동기화/수신 상태 알람으로 표시
