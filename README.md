@@ -19,9 +19,6 @@ https://github.com/sw0501/NTP
 * https://yaraba.tistory.com/1461 (가상 시리얼 포트 연결)
 * https://www.intel.co.kr/content/www/kr/ko/support/articles/000017881/intel-nuc.html (Putty 시리얼 통신 입력 설정)
 
-## 시리얼 통신시 주의사항
-NTP 프로그램을 실행한 후에 포트를 열고 PUTTY를 통해 연결된 상대포트에 접속을 해야 프로그램이 작동한다 이유는 모르겠음
-
 ## 프로토타입
 * https://so-bored.tistory.com/6 (UI 및 버그 수정 필요)
 
