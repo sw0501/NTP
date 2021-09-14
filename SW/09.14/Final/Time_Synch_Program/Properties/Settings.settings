@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Time_Synch_Program.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Last_Server_Time" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-06-21</Value>
+    </Setting>
+    <Setting Name="Last_Server_Time_Delayed" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-06-21</Value>
+    </Setting>
+    <Setting Name="Delay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Port_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM5</Value>
+    </Setting>
+    <Setting Name="BaudRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
