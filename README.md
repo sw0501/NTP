@@ -1,8 +1,9 @@
 # Time_Sync_Program
 Serial 통신을 이용한 시간 동기화 프로그램
 
-# 깃허브 주소
-https://github.com/sw0501/NTP
+# 기술 스택
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
 ## 관련 사이트 주소
 * https://egbox.tistory.com/39 (Win 10에서 VB 6.0 설치하는 법)
